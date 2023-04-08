@@ -17,8 +17,7 @@ function App() {
     }
     else{
       const newMessage = {
-        text: inputValue,
-        timestamp: Date.now()
+        text: inputValue
       };
       setMessages([...messages, newMessage]);
       setInputValue('');
